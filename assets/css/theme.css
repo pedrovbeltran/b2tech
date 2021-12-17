@@ -55,7 +55,7 @@ h6, .h6 {
 }
 
 .bg-primary {
-  background-color: #2F89FC !important;
+  color: #de9227 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus {
@@ -143,11 +143,11 @@ a.bg-light:hover, a.bg-light:focus {
 }
 
 .fg-primary {
-  color: #2F89FC !important;
+  color: #de9227 !important;
 }
 
 a.fg-primary:hover, a.fg-primary:focus {
-  color: #167bfc !important;
+  color: #c07d1f !important;
 }
 
 .fg-accent {
@@ -340,37 +340,37 @@ a.fg-light:hover, a.fg-light:focus {
 
 .btn-primary {
   color: #fff;
-  background-color: #2F89FC;
-  border-color: #2F89FC;
+  background-color: #de9227;
+  border-color: #c07d1f;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #167bfc;
-  border-color: #0974fb;
+  background-color: #d88c21;
+  border-color: #c07d1f;
   -webkit-box-shadow: 0 4px 12px rgba(47, 137, 252, 0.3);
           box-shadow: 0 4px 12px rgba(47, 137, 252, 0.3);
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #4897fc;
-  border-color: #3c90fc;
+  background-color: #d88c21;
+  border-color: #c07d1f;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #2F89FC;
-  border-color: #2F89FC;
+  background-color: #de9227;
+  border-color: #de9227;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0974fb;
-  border-color: #046df4;
+  background-color: #de9227;
+  border-color: #c07d1f;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -1279,7 +1279,7 @@ a.fg-light:hover, a.fg-light:focus {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #2F89FC;
+  color: #de9227;
 }
 
 @media (min-width: 576px) {
@@ -2432,5 +2432,13 @@ img.icon-whatsapp{
     width: fit-content;
     padding: 6px 15px 6px 15px;
     border-radius: 10px;
+}
+
+.fg-primary-sec{
+  color: #58bdc3;
+}
+
+.navbar-brand img{
+  width: 128px;
 }
 /*# sourceMappingURL=theme.css.map */
