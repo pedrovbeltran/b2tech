@@ -1328,6 +1328,14 @@ a.fg-light:hover, a.fg-light:focus {
         -ms-flex-align: center;
             align-items: center;
   }
+  /* Linhas de código adicionadas por Pedro*/
+  /*.navbar{
+    background-image: url('../img/bg_site_topo.jpg');
+    background-size: contain;
+    padding-bottom: 200px;
+    margin-bottom: -240px;
+    background-repeat: no-repeat;
+  }*/
 }
 
 @media (min-width: 1200px) {
