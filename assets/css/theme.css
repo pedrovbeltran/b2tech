@@ -1296,6 +1296,10 @@ a.fg-light:hover, a.fg-light:focus {
         -ms-flex-align: center;
             align-items: center;
   }
+  .navbar-brand{
+    width: 50%;
+    height: 150px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1328,6 +1332,10 @@ a.fg-light:hover, a.fg-light:focus {
         -ms-flex-align: center;
             align-items: center;
   }
+  .navbar-brand{
+    width: 20%;
+    height: 125px;
+  }
   /* Linhas de código adicionadas por Pedro*/
   /*.navbar{
     background-image: url('../img/bg_site_topo.jpg');
@@ -1351,6 +1359,11 @@ a.fg-light:hover, a.fg-light:focus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .navbar-brand{
+    background-image: url("../img/marca.png");
+    height: 119px;
+    width: 41%;
   }
 }
 
@@ -2446,7 +2459,21 @@ img.icon-whatsapp{
   color: #58bdc3;
 }
 
-.navbar-brand img{
-  width: 128px;
+.navbar-brand{
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-/*# sourceMappingURL=theme.css.map */
+
+@media (max-width: 1199px) {
+  .navbar-brand{
+    background-image: url("../img/marca_small.png");
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand{
+    width: 50%;
+    height: 120px;
+  }
+}
+/*# sourceMappingURL=theme.css.map - 538px */
