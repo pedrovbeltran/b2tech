@@ -1338,7 +1338,7 @@ a.fg-light:hover, a.fg-light:focus {
   }
   /* Linhas de código adicionadas por Pedro*/
   /*.navbar{
-    background-image: url('../img/bg_site_topo.jpg');
+    background-image: url('assets/img/bg_site_topo.jpg');
     background-size: contain;
     padding-bottom: 200px;
     margin-bottom: -240px;
@@ -1361,7 +1361,7 @@ a.fg-light:hover, a.fg-light:focus {
             align-items: center;
   }
   .navbar-brand{
-    background-image: url("../img/marca.png");
+    background-image: url("assets/img/marca.png");
     height: 119px;
     width: 41%;
   }
@@ -2466,7 +2466,7 @@ img.icon-whatsapp{
 
 @media (max-width: 1199px) {
   .navbar-brand{
-    background-image: url("../img/marca_small.png");
+    background-image: url("assets/img/marca_small.png");
   }
 }
 
