@@ -2485,6 +2485,10 @@ img.icon-whatsapp{
   background-size: contain;
 }
 
+.logo-footer img{
+  width: 60%;
+}
+
 @media (max-width: 1199px) {
   .navbar-brand{
     background-image: url("assets/img/marca_small.png");
@@ -2499,6 +2503,9 @@ img.icon-whatsapp{
   }
   .img-banner{
     order:1;
+  }
+  .logo-footer img{
+    width: 20%;
   }
 }
 
