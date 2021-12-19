@@ -1365,6 +1365,9 @@ a.fg-light:hover, a.fg-light:focus {
     height: 119px;
     width: 41%;
   }
+  .banner{
+    height: 255px;
+  }
 }
 
 .form-control {
@@ -1752,7 +1755,7 @@ a.fg-light:hover, a.fg-light:focus {
 .page-section {
   position: relative;
   display: block;
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 .page-section p {
@@ -1785,12 +1788,12 @@ a.fg-light:hover, a.fg-light:focus {
   margin: 15px auto;
   width: auto;
   max-width: 500px;
-  border-radius: 12px;
   overflow: hidden;
+  /*border-radius: 12px;
   -webkit-box-shadow: 0 8px 16px rgba(109, 114, 139, 0.3);
           box-shadow: 0 8px 16px rgba(109, 114, 139, 0.3);
   -webkit-transform: skewX(-3deg) rotateX(20deg);
-          transform: skewX(-3deg) rotateX(20deg);
+          transform: skewX(-3deg) rotateX(20deg);*/
 }
 
 .about-img img {
@@ -2316,6 +2319,7 @@ a.fg-light:hover, a.fg-light:focus {
   padding-bottom: 20px;
   background-color: #33374B;
   color: #fff;
+  margin-top: 40px;
 }
 
 .page-footer hr {
@@ -2423,17 +2427,34 @@ a.fg-light:hover, a.fg-light:focus {
 /* Código adicionado por Pedro */
 
 .card{
-  color: white;
   border-radius: 20px;
   margin: 10px;
+  /*-webkit-transform: skewX(-3deg) rotateX(20deg);
+          transform: skewX(-3deg) rotateX(20deg);*/
+}
+
+.card:hover{
+  -webkit-box-shadow: 5px 5px 6px rgba(109, 114, 139, 0.3);
+          box-shadow: 5px 5px 6px rgba(109, 114, 139, 0.3);
+  text-decoration: none;
 }
 
 .card:nth-of-type(odd){
   background-color: #000422;
+  color: #ffab10;
+}
+
+.card:nth-of-type(odd):hover{
+  color: #ffab10;
 }
 
 .card:nth-of-type(even){
   background-color: #ffab10;
+  color: #000422;
+}
+
+.card:nth-of-type(even):hover{
+  color: black;
 }
 
 .frase{
@@ -2469,11 +2490,26 @@ img.icon-whatsapp{
     background-image: url("assets/img/marca_small.png");
   }
 }
+@media (max-width: 991px){
+  .banner{
+    display:flex;
+  }
+  .text-banner{
+    order:2;
+  }
+  .img-banner{
+    order:1;
+  }
+}
 
 @media (max-width: 576px) {
   .navbar-brand{
     width: 50%;
     height: 120px;
   }
+}
+
+.clients img{
+  height: 68px;
 }
 /*# sourceMappingURL=theme.css.map - 538px */
