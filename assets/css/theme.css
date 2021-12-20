@@ -339,7 +339,7 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #000422;
   background-color: #de9227;
   border-color: #c07d1f;
 }
@@ -1268,11 +1268,11 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(109, 114, 139, 0.75);
+  color: #5cbac0;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: #6D728B;
+  color: #7fd3da;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
@@ -1759,7 +1759,7 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 .page-section p {
-  color: #6D728B;
+  color: #57b2b8;
 }
 
 .subhead {
@@ -1773,7 +1773,7 @@ a.fg-light:hover, a.fg-light:focus {
 .title-section {
   display: block;
   max-width: 450px;
-  color: #2d2f38;
+  color: #5cbac0;
   font-weight: 600;
   margin-bottom: 32px;
 }
@@ -2461,6 +2461,7 @@ a.fg-light:hover, a.fg-light:focus {
   margin: 20px;
   text-align: center;
   font-size: larger;
+  color: #57b2b8;
 }
 
 img.icon-whatsapp{
@@ -2518,5 +2519,9 @@ img.icon-whatsapp{
 
 .clients img{
   height: 68px;
+}
+
+body{
+  background-color: #000422;
 }
 /*# sourceMappingURL=theme.css.map - 538px */
