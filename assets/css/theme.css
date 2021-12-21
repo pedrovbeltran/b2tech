@@ -1337,13 +1337,6 @@ a.fg-light:hover, a.fg-light:focus {
     height: 125px;
   }
   /* Linhas de código adicionadas por Pedro*/
-  /*.navbar{
-    background-image: url('assets/img/bg_site_topo.jpg');
-    background-size: contain;
-    padding-bottom: 200px;
-    margin-bottom: -240px;
-    background-repeat: no-repeat;
-  }*/
 }
 
 @media (min-width: 1200px) {
@@ -2434,18 +2427,18 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 .card:hover{
-  -webkit-box-shadow: 5px 5px 6px rgba(109, 114, 139, 0.3);
-          box-shadow: 5px 5px 6px rgba(109, 114, 139, 0.3);
+  -webkit-box-shadow: 5px 5px 6px rgba(255, 255, 255, 0.3);
+          box-shadow: 5px 5px 6px rgba(255, 255, 255, 0.3);
   text-decoration: none;
 }
 
 .card:nth-of-type(odd){
-  background-color: #000422;
-  color: #ffab10;
+  background-color: #5cbac0;
+  color: #000422;
 }
 
 .card:nth-of-type(odd):hover{
-  color: #ffab10;
+  color: black;
 }
 
 .card:nth-of-type(even){
@@ -2492,7 +2485,7 @@ img.icon-whatsapp{
 
 @media (max-width: 1199px) {
   .navbar-brand{
-    background-image: url("assets/img/marca_small.png");
+    background-image: url("../img/marca_small.png");
   }
 }
 @media (max-width: 991px){
@@ -2523,5 +2516,6 @@ img.icon-whatsapp{
 
 body{
   background-color: #000422;
+  font-family: 'Sansation Bold', arial;
 }
 /*# sourceMappingURL=theme.css.map - 538px */
