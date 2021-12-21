@@ -1361,7 +1361,7 @@ a.fg-light:hover, a.fg-light:focus {
             align-items: center;
   }
   .navbar-brand{
-    background-image: url("/b2tech/assets/img/marca.png");
+    background-image: url("../img/marca.png");
     height: 119px;
     width: 41%;
   }
