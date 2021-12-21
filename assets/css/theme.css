@@ -1612,7 +1612,7 @@ a.fg-light:hover, a.fg-light:focus {
 
 .page-banner {
   position: relative;
-  height: 340px;
+  height: 250px;
   background-color: #6D728B;
 }
 
@@ -2517,5 +2517,9 @@ img.icon-whatsapp{
 body{
   background-color: #000422;
   font-family: 'Sansation Bold', arial;
+}
+
+ul{
+  color: #57b2b8;
 }
 /*# sourceMappingURL=theme.css.map - 538px */
